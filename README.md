@@ -1,93 +1,54 @@
-🛒 E-Commerce Customer Segmentation Dashboard
+Project Overview
 
-This project analyzes user activity across an e-commerce platform to understand how different customer groups behave and convert. Using event-level tracking data, the dashboard highlights engagement patterns, session behavior, conversion trends, and experiment-group performance. I cleaned the raw data, modeled it in SQL, and built an interactive Power BI dashboard to visualize key behaviors and answer critical business questions.
+This project analyzes e-commerce user behavior to understand how customers navigate, engage, and convert across the funnel. The goal was to translate raw event-level data into clear insights around traffic quality, funnel drop-offs, and experiment performance, and to communicate those findings through an interactive dashboard and executive-ready presentation.
 
-🗂️ Dataset Used
+Key Questions Addressed:
 
-events.csv – 100k+ e-commerce tracking events, including:
+How do users progress through the e-commerce funnel?
+Which traffic sources drive higher-quality conversions?
+Where does the largest drop-off occur in the customer journey?
+Do experiment variants meaningfully impact engagement and conversion?
+How should insights from behavior data inform optimization decisions?
 
-User actions (view, click, add_to_cart, purchase)
+Data & Tools Used:
 
-Experiment group assignments
+Dataset: Ecommerce Customer Segmentation.csv
 
-Session IDs and event timestamps
+SQL: MySQL Workbench 8,
+Data exploration,
+Aggregations and validation
 
-Customer IDs and total interactions
+Visualization: Power BI,
+Interactive dashboard design
+Funnel, segmentation, and experiment analysis
 
-Conversion-related behavior
+Presentation: PowerPoint
+Stakeholder-focused narrative and recommendations
 
-📌 Project Summary
+Dashboard:
+File: E-Commerce Customer Segmentation Dashboard.pbix
 
-This dashboard explores e-commerce behavior by analyzing:
+The dashboard is organized into three analytical sections:
 
-👥 Customer distribution across experiment groups
+Customer Segmentation Overview:
+Traffic sources, device usage, page categories, and event distribution
 
-🔄 Session activity and total event volume
+User Behavior & Conversion Insights:
+Funnel progression, conversion rates by channel, and user type breakdown
 
-📈 Engagement rate based on meaningful actions
+A/B Testing Analysis:
+Engagement and conversion performance across experiment variants
 
-🛒 Conversion rate by experiment group
+Each page is designed to answer a specific business question and build toward actionable insights.
 
-📊 Behavioral comparisons between customer cohorts
+Presentation:
 
-Each visual is designed to show where users drop off, which actions lead to conversions, and how experiment groups differ in performance.
+File: E-Commerce User Behavior & Conversion Analysis.pptx
 
-🛠️ Tools & Skills Used
+The presentation walks through:
+Business context and objectives, 
+Key behavioral patterns and funnel insights, 
+Experiment results and performance comparisons, 
+Clear, data-backed recommendations and next steps, 
 
-Excel → Initial cleanup, formatting, and CSV inspection
-
-MySQL Workbench → Filtering, grouping, aggregations, segmentation queries
-
-Power BI → Dashboard design & interactive visuals
-
-KPI cards (sessions, engagement rate %, conversions, conversion rate)
-
-Clustered bars, line charts, scatter/distribution visuals
-
-Slicers for experiment groups and event types
-
-DAX → Custom engagement rate + calculated measures
-
-Data Storytelling → Connecting metrics to user behavior insights
-
-📁 Files Included
-
-README.md – this file
-
-E-Commerce Customer Segmentation Dashboard.pbix – Power BI dashboard
-
-events.csv – original dataset
-
-sql_queries.sql – MySQL queries used
-
-🚀 Learning Goals
-
-Analyze customer behavior from event-level data
-
-Build meaningful KPIs from raw logs
-
-Use SQL to segment and summarize user actions
-
-Create interactive Power BI dashboards for experimentation analysis
-
-Communicate insights through clear storytelling
-
-❓ Questions Answered
-
-How do users behave differently across experiment groups?
-
-What percentage of users meaningfully engage?
-
-Which actions most strongly correlate with conversion?
-
-Where does user activity drop off within the funnel?
-
-How do sessions and events differ by customer?
-
-🙌 Let’s Connect
-
-If you're working in product analytics, experimentation, or e-commerce insights, feel free to reach out!
-
-📧 Email: keymari_reese@yahoo.com
-
-💼 LinkedIn: linkedin.com/in/keymari-reese-884315278
+This deck is intended for non-technical stakeholders and mirrors how insights would be communicated in a real business setting.
