@@ -10,6 +10,7 @@ Where does the largest drop-off occur in the customer journey?
 Do experiment variants meaningfully impact engagement and conversion?
 How should insights from behavior data inform optimization decisions?
 
+
 Data & Tools Used:
 
 Dataset: Ecommerce Customer Segmentation.csv
@@ -18,12 +19,15 @@ SQL: MySQL Workbench 8,
 Data exploration,
 Aggregations and validation
 
+
 Visualization: Power BI,
 Interactive dashboard design
 Funnel, segmentation, and experiment analysis
 
+
 Presentation: PowerPoint
 Stakeholder-focused narrative and recommendations
+
 
 Dashboard:
 File: E-Commerce Customer Segmentation Dashboard.pbix
@@ -33,13 +37,16 @@ The dashboard is organized into three analytical sections:
 Customer Segmentation Overview:
 Traffic sources, device usage, page categories, and event distribution
 
+
 User Behavior & Conversion Insights:
 Funnel progression, conversion rates by channel, and user type breakdown
+
 
 A/B Testing Analysis:
 Engagement and conversion performance across experiment variants
 
 Each page is designed to answer a specific business question and build toward actionable insights.
+
 
 Presentation:
 
